@@ -1,0 +1,26 @@
+#!/bin/bash
+
+while true
+do
+        echo "1 - vim, 2 - nano, 3 - links, 4 - exit"
+        read N
+        case $N in
+
+        1)
+                vim
+                exit
+                ;;
+
+        2)
+                nano
+                exit
+                ;;
+        3)
+                links
+                exit
+                ;;
+        4)
+                exit
+                ;;
+        esac
+done

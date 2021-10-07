@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cat /var/log/anaconda/X.log | grep -e "(WW)" | sed 's/(WW)/Warning:/g' > full.log
+cat /var/log/anaconda/X.log | grep -e "(II)" | sed 's/(II)/Information:/g' >> full.log

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+O=""
+while true
+do
+        read C
+        O=$O$C
+        if [[ $C == "q" ]]
+        then
+                break
+        fi
+done
+
+echo $O
