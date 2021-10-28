@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ps -x -o pid,command | sed -E -n 's/^\s*([0-9]*)\s\/usr\/sbin\/.+/\1/p' > ii.ans

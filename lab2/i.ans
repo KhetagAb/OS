@@ -1,0 +1,97 @@
+96
+1:/usr/lib/systemd/systemd --switched-root --system --deserialize 17
+2:[kthreadd]
+3:[rcu_gp]
+4:[rcu_par_gp]
+6:[kworker/0:0H-kblockd]
+8:[mm_percpu_wq]
+9:[ksoftirqd/0]
+10:[rcu_sched]
+11:[migration/0]
+12:[watchdog/0]
+13:[cpuhp/0]
+15:[kdevtmpfs]
+16:[netns]
+17:[kauditd]
+18:[khungtaskd]
+19:[oom_reaper]
+20:[writeback]
+21:[kcompactd0]
+22:[ksmd]
+23:[khugepaged]
+24:[crypto]
+25:[kintegrityd]
+26:[kblockd]
+27:[tpm_dev_wq]
+28:[md]
+29:[edac-poller]
+30:[watchdogd]
+35:[kworker/u2:1-events_unbound]
+43:[kswapd0]
+136:[kthrotld]
+137:[acpi_thermal_pm]
+138:[kmpath_rdacd]
+139:[kaluad]
+140:[ipv6_addrconf]
+141:[kstrp]
+382:[ata_sff]
+385:[scsi_eh_0]
+386:[scsi_tmf_0]
+387:[scsi_eh_1]
+388:[scsi_tmf_1]
+390:[scsi_eh_2]
+391:[scsi_tmf_2]
+395:[kworker/0:1H-kblockd]
+454:[kdmflush]
+464:[kdmflush]
+502:[jbd2/dm-0-8]
+503:[ext4-rsv-conver]
+593:/usr/lib/systemd/systemd-journald
+621:/usr/lib/systemd/systemd-udevd
+658:[kdmflush]
+662:[irq/18-vmwgfx]
+663:[ttm_swap]
+687:[jbd2/sda1-8]
+688:[ext4-rsv-conver]
+699:[xfsalloc]
+700:[xfs_mru_cache]
+703:[xfs-buf/dm-2]
+704:[xfs-conv/dm-2]
+705:[xfs-cil/dm-2]
+706:[xfs-reclaim/dm-]
+707:[xfs-log/dm-2]
+708:[xfs-eofblocks/d]
+709:[xfsaild/dm-2]
+733:/sbin/auditd
+741:[rpciod]
+742:[kworker/u3:0]
+744:[xprtiod]
+763:/usr/sbin/ModemManager
+767:/usr/sbin/mcelog --ignorenodev --daemon --foreground
+770:/usr/sbin/sssd -i --logger=files
+774:/usr/sbin/smartd -n -q never
+778:/usr/sbin/gssproxy -D
+796:/usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+797:/usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+800:/usr/libexec/platform-python -s /usr/sbin/firewalld --nofork --nopid
+807:/usr/lib/systemd/systemd-logind
+812:/usr/sbin/NetworkManager --no-daemon
+821:/usr/libexec/platform-python -Es /usr/sbin/tuned -l -P
+824:/usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=rsa-sha2-256,rsa-sha2-256-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,rsa-sha2-512-cert-v01@openssh.com,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oCASignatureAlgorithms=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,rsa-sha2-512,ecdsa-sha2-nistp521,ssh-ed25519,ssh-rsa
+1031:/usr/sbin/atd -f
+1032:login -- root
+1038:/usr/sbin/crond -n
+1336:/usr/lib/systemd/systemd --user
+1341:(sd-pam)
+1347:-bash
+2485:[kworker/u2:0-events_unbound]
+2582:sshd: root [priv]
+2586:sshd: root@pts/0
+2587:-bash
+2640:[kworker/0:0-ata_sff]
+2880:[kworker/0:2-ata_sff]
+2961:[kworker/0:1-events]
+3000:/bin/bash ./i
+3004:ps -u root -o pid,command
+3005:tail -n +2
+3006:sed -E s/^\s*([0-9]+)\s(.*)/\1:\2/

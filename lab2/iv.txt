@@ -1,0 +1,27 @@
+#!/bin/bash
+
+get_param(){
+
+        echo $(grep -Eio $1".+" $2 | sed -E "s/^.*\s([0-9]+)/\1/")
+
+}
+
+> iv.temp
+
+for pid in $(ps ax -o pid | tail -n +2)
+do
+        if [ -d "/proc/$pid" ]
+        then
+                ppid=$(get_param "ppid" "/proc/$pid/status")
+                sum_exec_runtime=$(get_param "sum_exec_runtime" "/proc/$pid/sched")
+                nr_switches=$(get_param "nr_switches.*" "/proc/$pid/sched")
+
+                art=$(echo $sum_exec_runtime / $nr_switches | bc -l)
+
+                echo "ProcessID= "$pid" : Parent_ProcessID= "$ppid" : Average_Running_Time= "$art >> iv.temp
+        fi
+done
+
+cat iv.temp | sort -n -t ' ' -k5 > iv.ans
+
+rm iv.temp

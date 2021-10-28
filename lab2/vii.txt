@@ -1,0 +1,28 @@
+#!/bin/bash
+
+get_param(){
+        echo $(grep -Eio $1".+" $2 | sed -E "s/^.*\s([0-9]+)/\1/")
+}
+
+declare -A at_start
+declare -A usage
+declare -A cmd
+
+while [[ "$SECONDS" -lt "60" ]]; do
+        for pid in $(ps ax -o pid | tail -n +2)
+        do
+                if [[ "$pid" -ne "$$" && -f "/proc/$pid/io" ]]
+                then
+                        value=$(get_param "rchar" "/proc/$pid/io")
+                        if [[ "${at_start[$pid]}" -ne "" ]]
+                        then
+                                let usage[$pid]=$value-${at_start[$pid]}
+                        else
+                                at_start[$pid]=$value
+                                cmd[$pid]=$(cat /proc/$pid/cmdline | tr -d '\0')
+                        fi
+                fi
+        done
+done
+
+for pid in "${!usage[@]}"; do echo $pid":"${usage[$pid]}":"${cmd[$pid]}; done | sort -t ':' -n -k2 | tail -n3

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ps x -o ppid,pid,start | awk -v var=$$ '$1!=var' | tr -s ' ' | tail -n +2 | sort -k3 | tail -n 1 | cut -d ' ' -f 2

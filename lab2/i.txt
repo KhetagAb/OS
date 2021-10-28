@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ps -u root -o pid,command | tail -n +2 | wc -l > i.ans
+ps -u root -o pid,command | tail -n +2 | sed -E 's/^\s*([0-9]+)\s(.*)/\1:\2/' >> i.ans

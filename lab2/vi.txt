@@ -1,0 +1,22 @@
+#!/bin/bash
+
+get_param(){
+        echo $(grep -Eio $1".+" $2 | sed -E "s/^.*\s([0-9]+)\skB/\1/")
+}
+
+let mx=0
+for pid in $(ps ax -o pid | tail -n +2)
+do
+        if [ -f "/proc/$pid/status" ]
+        then
+                vm=$(get_param VmRSS "/proc/$pid/status")
+                if [[ "$vm" -gt "$mx" ]]
+                then
+                        mx=$vm
+                        vm_pid=$pid
+                fi
+        fi
+done
+
+echo $vm_pid" pid: "$vm" kB"
+
