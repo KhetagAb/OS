@@ -22,15 +22,15 @@ if (( (now_unix - last_unix) / 86400 > 7 )); then
 
     mkdir $target_path
 
-    echo "[$timestamp] Directory $target_path was created. Files: " >> $report
+    echo "[$timestamp] Directory $target_path was created." >> $report
     for i in $sources; do
         cp $source_path/$i $target_path
-        echo "[$timestamp] File: $source_path$i" >> $report
+        echo "[$timestamp] File: $source_path/$i" >> $report
     done
 else
     target_path=$backup_path/"Backup-$last_date"
 
-    echo "[$timestamp] Update $target_path. Date: $now_date. Files:" >> $report
+    echo "[$timestamp] Update $target_path. Date: $now_date." >> $report
     for i in $sources; do
         source_file=$source_path/$i
         backup_file=$target_path/$i
