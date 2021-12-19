@@ -1,0 +1,17 @@
+echo > report.log
+
+let step=0
+declare -a array
+
+while true; do
+  for i in 1 2 3 4 5 6 7 8 9 10; do
+    array+=(i)
+  done
+
+  step=$((step+1))
+
+  if (( step % 100000 == 0 ))
+  then
+    echo ${#array[@]} >> report.log
+  fi
+done
