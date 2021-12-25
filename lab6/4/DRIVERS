@@ -1,0 +1,111 @@
+
+ac97intc     Intel(r) 82801 б«г¦Ў   Kernel        20.07.2001 1:43:40    
+ACPI         „а ©ўҐа Microsoft ACPI Kernel        13.04.2008 21:36:33   
+ACPIEC       ACPIEC                 Kernel        17.08.2001 23:57:55   
+aec          Џ®¤ ўЁвҐ«м  ЄгбвЁзҐбЄ® Kernel        24.05.2007 22:53:32   
+AFD          AFD                    Kernel        29.05.2014 3:46:19    
+AsyncMac     „а ©ўҐа  бЁ­еа®­­®Ј® ­ Kernel        13.04.2008 21:57:27   
+atapi        Standard IDE/ESDI Hard Kernel        13.04.2008 21:40:29   
+Atmarpc      Џа®в®Є®« Є«ЁҐ­в  ATM A Kernel        13.04.2008 21:51:24   
+audstub      „а ©ўҐа § Ј«гиЄЁ  г¤Ё® Kernel        17.08.2001 23:59:40   
+Beep         Beep                   Kernel        17.08.2001 23:47:33   
+cbidf2k      cbidf2k                Kernel        17.08.2001 23:52:06   
+Cdaudio      Cdaudio                Kernel        17.08.2001 23:52:26   
+Cdfs         Cdfs                   File System   13.04.2008 22:14:21   
+Cdrom        „а ©ўҐа CD-ROM ¤ЁбЄ®ў® Kernel        02.05.2008 13:49:38   
+CmBatt       „а ©ўҐа Ў в аҐЁ б ACPI Kernel        13.04.2008 21:36:36   
+Compbatt     „а ©ўҐа б®бв ў­®© Ў в  Kernel        13.04.2008 21:36:36   
+Disk         „а ©ўҐа ¤ЁбЄ           Kernel        13.04.2008 21:40:46   
+dmboot       dmboot                 Kernel        13.04.2008 21:44:45   
+dmio         „а ©ўҐа ¤ЁбЇҐвзҐа  «®Ј Kernel        13.04.2008 21:44:45   
+dmload       dmload                 Kernel        17.08.2001 23:58:15   
+DMusic       ‘Ё­вҐ§ в®а DLS п¤а  бЁ Kernel        13.04.2008 21:45:00   
+drmkaud      ‡ўгЄ®ў®© ¤ҐиЁда в®а DR Kernel        13.04.2008 21:45:13   
+E1000        Intel(R) PRO/1000  ¤ Ї Kernel        10.05.2001 21:57:57   
+exFat        exFat                  File System   29.09.2008 13:50:59   
+Fastfat      Fastfat                File System   02.09.2014 23:56:30   
+Fdc          Fdc                    Kernel        13.04.2008 21:40:25   
+Fips         Fips                   Kernel        13.04.2008 21:33:27   
+Flpydisk     Flpydisk               Kernel        13.04.2008 21:40:24   
+FltMgr       FltMgr                 File System   13.04.2008 21:32:58   
+Ftdisk       „а ©ўҐа ¤ЁбЇҐвзҐа  в®¬ Kernel        17.08.2001 23:52:41   
+Gpc          ЋЎйЁ© Є« ббЁдЁЄ в®а Ї  Kernel        13.04.2008 21:56:32   
+hidusb       „а ©ўҐа Є« бб  HID Mic Kernel        13.04.2008 21:45:27   
+HTTP         HTTP                   Kernel        20.10.2009 18:21:15   
+i8042prt     „а ©ўҐа i8042-Є« ўЁ вг Kernel        13.04.2008 22:17:59   
+Imapi        „а ©ўҐа дЁ«мва  § ЇЁбЁ Kernel        13.04.2008 21:40:57   
+IntelIde     IntelIde               Kernel        13.04.2008 21:40:29   
+Ip6Fw        „а ©ўҐа Ўа ­¤¬ гна  Wi Kernel        13.04.2008 21:53:32   
+IpFilterDriv „а ©ўҐа дЁ«мва  IP-ва  Kernel        17.08.2001 23:55:07   
+IpInIp       „а ©ўҐа вг­­Ґ«п IP ў I Kernel        13.04.2008 21:57:07   
+IpNat        ’а ­б«пв®а бҐвҐў®Ј® IP Kernel        13.04.2008 21:57:10   
+IPSec        „а ©ўҐа IPSEC          Kernel        13.04.2008 22:19:42   
+IRENUM       ‘«г¦Ў  ЇҐаҐзЁб«ЁвҐ«п I Kernel        13.04.2008 21:54:28   
+isapnp       „а ©ўҐа PnP ISA/EISA и Kernel        13.04.2008 21:36:40   
+Kbdclass     „а ©ўҐа Є« бб  Є« ўЁ в Kernel        13.04.2008 21:39:46   
+kmixer       ЊЁЄиҐа §ўгЄ®§ ЇЁбЁ п¤а Kernel        13.04.2008 21:45:07   
+KSecDD       KSecDD                 Kernel        15.01.2015 4:10:27    
+mnmdd        mnmdd                  Kernel        17.08.2001 23:57:28   
+Modem        Modem                  Kernel        13.04.2008 22:00:18   
+Mouclass     „а ©ўҐа Є« бб  ¬лиЁ    Kernel        13.04.2008 21:39:47   
+mouhid       „а ©ўҐа ¬лиЁ HID       Kernel        17.08.2001 23:47:57   
+MountMgr     MountMgr               Kernel        18.05.2009 15:25:47   
+MRxDAV       ЏҐаҐ­ Їа ўЁ«м Є«ЁҐ­в®ў File System   29.12.2015 19:38:19   
+MRxSmb       MRXSMB                 File System   15.07.2011 16:29:32   
+Msfs         Msfs                   File System   13.04.2008 21:32:38   
+MSKSSRV      ЏаҐ¤бв ўЁвҐ«м б«г¦Ў Ї® Kernel        13.04.2008 21:39:51   
+MSPCLOCK     Џ®баҐ¤­ЁЄ бЁ­еа®­Ё§ жЁ Kernel        13.04.2008 21:39:50   
+MSPQM        ЏаҐ¤бв ўЁвҐ«м ¤ЁбЇҐвзҐ Kernel        13.04.2008 21:39:51   
+mssmbios     „а ©ўҐа Microsoft Syst Kernel        13.04.2008 21:36:45   
+Mup          ‘«г¦Ў  MUP             File System   21.04.2011 16:52:31   
+NDIS         ‘ЁбвҐ¬­л© ¤а ©ўҐа NDIS Kernel        13.04.2008 22:20:35   
+NdisTapi     NDIS-¤а ©ўҐа TAPI г¤ « Kernel        08.07.2011 16:51:08   
+Ndisuio      NDIS-Їа®в®Є®« ўў®¤ /ўл Kernel        13.04.2008 21:55:57   
+NdisWan      NDIS-¤а ©ўҐа WAN г¤ «Ґ Kernel        13.04.2008 22:20:41   
+NDProxy      NDIS Їа®ЄбЁ            Kernel        27.11.2013 23:21:05   
+NetBIOS      €­вҐадҐ©б NetBIOS      File System   13.04.2008 21:56:01   
+NetBT        NetBios зҐаҐ§ TCP/IP   Kernel        13.04.2008 22:20:59   
+Npfs         Npfs                   File System   13.04.2008 21:32:38   
+Ntfs         Ntfs                   File System   13.04.2008 22:15:49   
+Null         Null                   Kernel        17.08.2001 23:47:39   
+NwlnkFlt     „а ©ўҐа дЁ«мва  IPX-ва Kernel        17.08.2001 23:54:05   
+NwlnkFwd     „а ©ўҐа ЇҐаҐбл«ЄЁ  IPX Kernel        17.08.2001 23:54:08   
+Parport      Parport                Kernel        13.04.2008 21:40:09   
+PartMgr      PartMgr                Kernel        13.04.2008 21:40:48   
+ParVdm       ParVdm                 Kernel        17.08.2001 23:49:49   
+PCI          „а ©ўҐа PCI иЁ­л       Kernel        13.04.2008 21:36:43   
+Pcmcia       Pcmcia                 Kernel        13.04.2008 21:36:41   
+PptpMiniport ЊЁ­ЁЇ®ав WAN (PPTP)    Kernel        13.04.2008 22:19:47   
+PSched       Џ« ­Ёа®ўйЁЄ Ї ЄҐв®ў Qo Kernel        13.04.2008 21:56:36   
+Ptilink      „а ©ўҐа Їап¬®© Ї а ««Ґ Kernel        17.08.2001 23:49:53   
+RasAcd       „а ©ўҐа  ўв®-Ї®¤Є«озҐ­ Kernel        17.08.2001 23:55:39   
+Rasl2tp      ЊЁ­ЁЇ®ав WAN (L2TP)    Kernel        13.04.2008 22:19:43   
+RasPppoe     „а ©ўҐа PPPoE г¤ «Ґ­­® Kernel        13.04.2008 21:57:31   
+Raspti       Џап¬®© Ї а ««Ґ«м­л© Ї® Kernel        17.08.2001 23:55:32   
+Rdbss        Rdbss                  File System   13.04.2008 22:28:38   
+RDPCDD       RDPCDD                 Kernel        17.08.2001 23:46:56   
+rdpdr        „а ©ўҐа ЇҐаҐ­ Їа ўЁвҐ« Kernel        13.04.2008 21:32:50   
+RDPWD        RDPWD                  Kernel        04.07.2012 15:44:49   
+redbook      „а ©ўҐа дЁ«мва  ў®бЇа® Kernel        13.04.2008 21:40:27   
+rspndr       ЋвўҐвзЁЄ ®Ў­ аг¦Ґ­Ёп в Kernel        29.05.2008 15:04:41   
+Secdrv       Secdrv                 Kernel        13.09.2006 16:18:32   
+Serial       Serial                 Kernel        13.04.2008 22:15:44   
+Sfloppy      Sfloppy                Kernel        13.04.2008 21:40:47   
+splitter     ђ §¤Ґ«ЁвҐ«м §ўгЄ  п¤а  Kernel        13.04.2008 21:45:07   
+sr           „а ©ўҐа дЁ«мва  ў®ббв  File System   13.04.2008 21:36:50   
+Srv          Srv                    File System   09.07.2015 19:02:24   
+swenum       „а ©ўҐа Їа®Ја ¬¬­®© иЁ Kernel        13.04.2008 21:39:52   
+swmidi       ‘Ё­вҐ§ в®а §ўгЄ®ў®© в  Kernel        13.04.2008 21:45:07   
+sysaudio     Ђг¤Ё®гбва®©бвў® п¤а  б Kernel        13.04.2008 22:15:55   
+Tcpip        „а ©ўҐа Їа®в®Є®«  TCP/ Kernel        13.10.2015 18:58:13   
+TDPIPE       TDPIPE                 Kernel        13.04.2008 21:38:37   
+TDTCP        TDTCP                  Kernel        13.04.2008 21:38:35   
+TermDD       „а ©ўҐа гбва®©бвў  вҐа Kernel        13.04.2008 21:38:36   
+Udfs         Udfs                   File System   13.04.2008 21:32:35   
+Update       „а ©ўҐа ®Ў­®ў«Ґ­Ёп ¬ЁЄ Kernel        13.04.2008 21:39:46   
+usbhub       USB2 Є®­жҐ­ва в®а      Kernel        13.04.2008 21:45:36   
+usbohci      „а ©ўҐа ¬Ё­ЁЇ®ав  Micr Kernel        13.04.2008 21:45:34   
+VgaSave      VgaSave                Kernel        13.04.2008 21:44:40   
+VolSnap      VolSnap                Kernel        13.04.2008 21:41:00   
+Wanarp       „а ©ўҐа IP ARP г¤ «Ґ­­ Kernel        13.04.2008 21:57:20   
+wdmaud       „а ©ўҐа б®ў¬ҐбвЁ¬®бвЁ  Kernel        13.04.2008 22:17:18   
