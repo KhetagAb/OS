@@ -1,0 +1,6 @@
+1.
+md C:\%COMPUTERNAME%\temp
+net share temp=C:\%COMPUTERNAME%\temp
+
+2.
+run.bat
