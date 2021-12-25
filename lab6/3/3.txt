@@ -1,0 +1,5 @@
+1.
+net start > services.txt
+
+2.
+script.bat
