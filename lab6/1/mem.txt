@@ -1,0 +1,2 @@
+FreeVirtualMemory  TotalVirtualMemorySize  
+2056616            2097024                 
