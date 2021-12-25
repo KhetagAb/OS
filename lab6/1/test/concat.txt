@@ -1,0 +1,7 @@
+Caption  Description                      	Size         
+C:       ‹®Є «м­л© ¦ҐбвЄЁ© ¤ЁбЄ  	10725732352  
+D:       Љ®¬Ї Єв-¤ЁбЄ                     680519680    
+FreeVirtualMemory  TotalVirtualMemorySize  
+2056616            2097024                 
+Caption                            Version   
+Microsoft Windows XP Professional  5.1.2600  
