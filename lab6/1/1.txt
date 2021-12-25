@@ -1,0 +1,15 @@
+1.
+wmic os get TOtalVirtualMemorySize, FreeVirtualMemory > mem.txt
+wmic os get Caprtion, Version > os.txt
+wmic logicaldisk get Caprtion, Description, Size > disk.txt
+
+2.
+md TEST
+xcopy . TEST
+cd TEST
+
+3.
+type *.txt > concat.txt
+
+4.
+FOR /F "skip=1" %f in ('DIR /B /O:-D') DO del %f
